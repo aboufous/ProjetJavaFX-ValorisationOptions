@@ -7,7 +7,7 @@ package appli.engine;
  * académique standard. L'implémentation a été validée et optimisée en complément
  * avec l'assistance d'une IA (Gemini) pour assurer la précision.
  *
- * @author Célia Glinel
+ * @author Adam Boufous, Célia Glinel
  */
 public class Stats {
 

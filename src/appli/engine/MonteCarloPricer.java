@@ -122,7 +122,7 @@ public class MonteCarloPricer {
 
 
     // ========================================================================
-    //  FONCTION D’AGRÉGATION COMMUNE (version originale de Célia)
+    //  FONCTION D’AGRÉGATION COMMUNE
     // ========================================================================
     private SimulationResult finalizeFromRawSums(
             double totalCallSum, double totalCallSq,

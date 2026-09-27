@@ -169,11 +169,10 @@ public class AboutView {
         Label creditTitle = new Label("👥 Auteurs & Crédits");
         creditTitle.getStyleClass().add("about-subtitle");
 
-        Label c1 = new Label("• Interface client JavaFX : Adam Boufous");
-        Label c2 = new Label("• Moteur de calcul & serveur : Célia Glinel");
+        Label c1 = new Label("• Projet réalisé par Adam Boufous & Célia Glinel (INSA Rouen Normandie)");
         Label c3 = new Label("• Version du logiciel : 1.0.0");
 
-        for (Label l : new Label[]{c1,c2,c3}) {
+        for (Label l : new Label[]{c1,c3}) {
             l.getStyleClass().add("about-text");
             l.setWrapText(true);
         }
@@ -185,7 +184,7 @@ public class AboutView {
                 graphsTitle, g1, g2, g3, g4, g5, g6,
                 tipsTitle, t1, t2, t3, t4, t5,
                 linksTitle, link1, link2,
-                creditTitle, c1, c2, c3
+                creditTitle, c1, c3
         );
 
         // Ajout au conteneur principal

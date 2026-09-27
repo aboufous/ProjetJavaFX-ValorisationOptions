@@ -3,7 +3,6 @@
 Application client/serveur de **pricing d'options européennes** (call et put) selon trois méthodes, avec visualisation interactive des résultats.
 
 > Projet académique en binôme — INSA Rouen Normandie (2025–2026)
-> **Adam Boufous** : interface client JavaFX · **Célia Glinel** : moteur de calcul et serveur
 
 ## Fonctionnalités
 
