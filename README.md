@@ -1,8 +1,9 @@
-﻿# Valorisation d'options européennes — Java / JavaFX
+# Valorisation d'options européennes — Java / JavaFX
 
 Application client/serveur de **pricing d'options européennes** (call et put) selon trois méthodes, avec visualisation interactive des résultats.
 
 > Projet académique en binôme — INSA Rouen Normandie (2025–2026)
+> **Adam Boufous** : interface client JavaFX · **Célia Glinel** : moteur de calcul et serveur
 
 ## Fonctionnalités
 
@@ -76,4 +77,3 @@ Le guide détaillé est disponible dans [`docs/Guide_installation.pdf`](docs/Gui
 ## Technologies
 
 Java 23 · JavaFX · Threads (`ExecutorService`) · Sockets TCP · JSON · SQLite · PDFBox
-
