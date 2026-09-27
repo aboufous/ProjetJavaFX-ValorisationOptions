@@ -1,0 +1,195 @@
+/* ======================================================================
+   THEME GLOBAL
+====================================================================== */
+.root {
+    -fx-background-color: #05060a;
+}
+
+/* Graphs transparent background */
+.chart {
+    -fx-background-color: transparent;
+}
+
+.chart-plot-background {
+    -fx-background-color: #05060a;
+}
+
+/* Grid */
+.chart-horizontal-grid-lines,
+.chart-vertical-grid-lines {
+    -fx-stroke: #123a4a;
+    -fx-stroke-width: 0.6px;
+}
+
+/* Axes */
+.axis {
+    -fx-tick-label-fill: #d0d6f5;
+    -fx-font-size: 11px;
+}
+
+.axis-label {
+    -fx-text-fill: #e5ecff;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+/* ======================================================================
+   LIGNES PAR DEFAUT
+====================================================================== */
+.default-color0.chart-series-line { -fx-stroke: #00ff7f; -fx-stroke-width: 1.6px; }
+.default-color1.chart-series-line { -fx-stroke: #ff4b4b; -fx-stroke-width: 1.4px; }
+.default-color2.chart-series-line { -fx-stroke: #ffd54a; -fx-stroke-width: 1.3px; }
+.default-color3.chart-series-line { -fx-stroke: #1e88ff; -fx-stroke-width: 1.2px; }
+
+/* Symbols */
+.chart-line-symbol {
+    -fx-background-radius: 3px;
+    -fx-padding: 2px;
+    -fx-background-color: white;
+}
+
+/* ======================================================================
+   PAYOFF
+====================================================================== */
+.payoff-chart .default-color0.chart-series-line {
+    -fx-stroke: #4da6ff; /* CALL */
+    -fx-stroke-width: 2px;
+}
+
+.payoff-chart .default-color1.chart-series-line {
+    -fx-stroke: #ffb347; /* PUT */
+    -fx-stroke-width: 2px;
+}
+
+.payoff-chart .chart-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.payoff-chart .chart-legend-item-symbol {
+    -fx-padding: 6px;
+    -fx-background-radius: 4px;
+}
+
+.payoff-chart .default-color0.chart-legend-item-symbol { -fx-background-color: #4da6ff; }
+.payoff-chart .default-color1.chart-legend-item-symbol { -fx-background-color: #ffb347; }
+
+/* ======================================================================
+   TRAJECTOIRES
+====================================================================== */
+.paths-chart .default-color0.chart-series-line { -fx-stroke: #00ff7f; }
+.paths-chart .default-color1.chart-series-line { -fx-stroke: #1e88ff; }
+.paths-chart .default-color2.chart-series-line { -fx-stroke: #ffd54a; }
+
+/* ======================================================================
+   CONVERGENCE
+====================================================================== */
+.conv-chart .default-color0.chart-series-line {
+    -fx-stroke: #1e88ff;
+    -fx-stroke-width: 2px;
+}
+
+/* Légende */
+.conv-chart .chart-legend-item .label {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.conv-chart .chart-legend-item-symbol {
+    -fx-padding: 6px;
+    -fx-background-radius: 4px;
+    -fx-background-color: #1e88ff;
+}
+
+/* ======================================================================
+   IC 95%
+====================================================================== */
+.error-chart .default-color0.chart-series-line {
+    -fx-stroke: #ff4b4b;
+    -fx-stroke-width: 2px;
+}
+
+.error-chart .chart-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
+
+.error-chart .axis-label {
+    -fx-text-fill: #d4d7e1;
+}
+
+/* ======================================================================
+   DISTRIBUTION S(T)
+====================================================================== */
+.distst-chart .default-color0.chart-bar {
+    -fx-bar-fill: #29b6f6;
+}
+
+.distst-chart .axis .tick-label {
+    -fx-text-fill: #b9c0d4;
+}
+
+.distst-chart .chart-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* ======================================================================
+   DISTRIBUTION PAYOFF
+====================================================================== */
+.distpay-chart .chart-bar {
+    -fx-bar-fill: #ff7b39;
+}
+
+.distpay-chart .axis .tick-label {
+    -fx-text-fill: #d4d7e1;
+}
+
+.distpay-chart .chart-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+/* ======================================================================
+   COMPARAISON (CARTE 2)
+   Couleurs dédiées PAR CHART → indispensable
+====================================================================== */
+
+/* Call bar color */
+.call-chart .default-color0.chart-bar {
+    -fx-bar-fill: #4da6ff;
+}
+
+/* Put bar color */
+.put-chart .default-color0.chart-bar {
+    -fx-bar-fill: #ff6e6e;
+}
+
+/* Time bar color */
+.time-chart .default-color0.chart-bar {
+    -fx-bar-fill: #ffd54f;
+}
+
+/* Variance bar color */
+.var-chart .default-color0.chart-bar {
+    -fx-bar-fill: #66bb6a;
+}
+
+/* Empêche inheritance globale */
+.trading-chart .chart-bar {
+    -fx-padding: 3px;
+}
+
+/* ======================================================================
+   SCROLLPANE
+====================================================================== */
+.scroll-pane {
+    -fx-background: #05060a;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: #05060a;
+}

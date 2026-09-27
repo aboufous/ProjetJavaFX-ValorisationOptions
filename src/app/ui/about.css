@@ -1,0 +1,56 @@
+/* ============================
+   ABOUT PAGE — STYLE DISTINCT
+=============================== */
+
+.about-root {
+    -fx-background-color: #0c0e12;
+}
+
+/* Titre principal */
+.about-title {
+    -fx-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-padding: 0 0 20 0;
+}
+
+/* Carte */
+.about-card {
+    -fx-background-color: #1a1c22;
+    -fx-background-radius: 12;
+    -fx-border-color: #2b2f38;
+    -fx-border-radius: 12;
+    -fx-padding: 25px;
+}
+
+/* Sous-titres */
+.about-subtitle {
+    -fx-text-fill: #6fa8ff;
+    -fx-font-size: 19px;
+    -fx-font-weight: 700;
+    -fx-padding: 16 0 6 0;
+}
+
+/* Texte normal */
+.about-text {
+    -fx-text-fill: #e6e9ef;
+    -fx-font-size: 15px;
+    -fx-line-spacing: 5px;
+}
+
+/* Hyperliens */
+.about-link {
+    -fx-text-fill: #7db3ff;
+    -fx-font-size: 15px;
+}
+.about-link:hover {
+    -fx-text-fill: #aaccff;
+}
+.about-scroll {
+    -fx-background: #0b0c10;
+    -fx-background-color: #0b0c10;
+}
+
+.about-scroll .viewport {
+    -fx-background-color: #0b0c10;
+}
